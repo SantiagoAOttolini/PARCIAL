@@ -1,0 +1,35 @@
+figure {
+  float: left; /**contenido uno al lado del otro*/
+  margin: 50px;
+  margin-right: 110px;
+}
+
+section {
+  width: 91%;
+  border-top: 1px dashed grey;
+  margin: 15px auto;
+}
+
+figure img {
+  padding: 4px;
+  background: #666;
+  border-radius: 20px;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s; /*google chrome webkit*/
+}
+figure img:hover {
+  -webkit-transform: scale(1.2);
+}
+figcaption {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 12px;
+}
+footer {
+  clear: both;
+  margin-right: 10px;
+}
+
+.header-title {
+  margin-left: 50px;
+  color: #666;
+}
